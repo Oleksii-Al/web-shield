@@ -18,6 +18,10 @@
 .navbar-container button {
     color: #D1DEDE;
     padding: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .navbar-container button {
