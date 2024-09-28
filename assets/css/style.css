@@ -1,17 +1,37 @@
-.navbar-container .bg-dark {
+/*Hovers*/
+.navbar-container a:hover,
+.navbar-container a:focus,
+.navbar-container button:hover {
+    background-color: rgba(0,0,0, .5);
+    border-radius: 5px;
+}
+
+.navbar-container {
     background-color: #30343F;
 }
 
-.navbar-container .navbar-nav .nav-link,
-.navbar-container .navbar-dark .navbar-toggler {
-    color: #D1DEDE;
+.navbar>a {
+    margin-left: 16px;
 }
 
-.navbar-container .navbar-dark .navbar-toggler {
-    border-color: #D1DEDE;
+.navbar-container a,
+.navbar-container button {
+    color: #D1DEDE;
+    padding: 5px;
+}
+
+.navbar-container button {
+    border: 1px solid #D1DEDE;
+    padding: 5px 10px;
+}
+
+.navbar-container ul>li {
+    text-align: center;
+    margin:
 }
 
 .navbar-container .active a {
-    background-color: rgba(0, 0, 0, .5);
-
+    background-color: rgba(0,0,0, .5);
+    border-radius: 5px;
 }
+
