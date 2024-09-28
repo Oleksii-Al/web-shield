@@ -2,12 +2,19 @@
 .navbar-container a:hover,
 .navbar-container a:focus,
 .navbar-container button:hover {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
 }
 
+/*Fonts*/
+.navbar-container a {
+    font-weight: 500;
+}
+
+/*Navigation*/
 .navbar-container {
     background-color: #30343F;
+    min-height: 56px;
 }
 
 .navbar>a {
@@ -31,11 +38,19 @@
 
 .navbar-container ul>li {
     text-align: center;
-    margin:
 }
 
 .navbar-container .active a {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
 }
 
+/*Main*/
+
+
+/*Footer*/
+
+footer {
+    background-color: #30343F;
+    min-height: 56px;
+}
