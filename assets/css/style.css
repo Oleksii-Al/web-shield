@@ -1,0 +1,17 @@
+.navbar-container .bg-dark {
+    background-color: #30343F;
+}
+
+.navbar-container .navbar-nav .nav-link,
+.navbar-container .navbar-dark .navbar-toggler {
+    color: #D1DEDE;
+}
+
+.navbar-container .navbar-dark .navbar-toggler {
+    border-color: #D1DEDE;
+}
+
+.navbar-container .active a {
+    background-color: rgba(0, 0, 0, .5);
+
+}
