@@ -67,6 +67,26 @@ main {
     height: 700px;
     flex-grow: 1;
     background: url('../images/background.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #D1DEDE;
+    background-color: #30343F;
+}
+
+#hero button {
+    background-color: #D44D5C;
+    color:#D1DEDE;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
 }
 
 .important-notice {
@@ -78,20 +98,20 @@ main {
 
 }
 
-p {
+.carousel-inner p {
     text-align: center;
     padding: 25px 25px;
     margin: 25px 25px;
 }
 
 .paragraph-color {
-    background-color:#30343F;
-    color:#D1DEDE;
+    background-color: #30343F;
+    color: #D1DEDE;
     border-radius: 5px;
 }
 
 .body-color {
-    color:#30343F;
+    color: #30343F;
 }
 
 .align-container {
@@ -117,11 +137,11 @@ p {
 }
 
 .pattern {
-        width: 75px;
-        height: 5px;
-        border: 0;
-        border-radius: 5px;
-        background-color: #D44D5C;
+    width: 75px;
+    height: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #D44D5C;
 }
 
 /*Footer*/
