@@ -55,15 +55,16 @@ main {
 footer {
     background-color: #30343F;
     min-height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
+
+
 
 .social-media ul {
     margin: 0;
     text-align: center;
     list-style-type: none;
+
 }
 
 .social-media ul>li {
@@ -87,3 +88,5 @@ footer {
 .social-media li a i:focus {
     background-color: rgba(0, 0, 0, .5);
 }
+
+/*Subscribe*/
