@@ -124,6 +124,7 @@ main {
     font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 25px;
+    margin-bottom: 25px;
 }
 
 .carousel-inner p,
