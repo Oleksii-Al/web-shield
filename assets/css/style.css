@@ -86,7 +86,25 @@ p {
     padding: 0 50px;
 }
 
+.align-container {
+    text-align: center;
+}
 
+.carousel-control-prev,
+.carousel-control-next {
+    color:#30343F;
+    font-size: 50px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: rgba(0, 0, 0, .9);
+}
+
+.carousel-indicators li {
+ color: #30343F;
+ background-color: #30343F;
+}
 
 /*Footer*/
 
