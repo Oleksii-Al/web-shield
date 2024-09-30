@@ -1,4 +1,12 @@
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #D1DEDE;
+
+}
+
 /*Hovers*/
 .navbar-container a:hover,
 .navbar-container a:focus,
@@ -50,9 +58,32 @@
 
 /*Main*/
 main {
+    flex-grow: 1;
+    height: 100%;
+}
+
+
+#hero {
     width: 100%;
-    height: 600px;
+    height: 700px;
+    flex-grow: 1;
     background: url('../images/background.webp') no-repeat center center/cover;
+}
+
+.important-notice {
+    background-color: #D1DEDE;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p {
+ 
+    text-align: center;
+    margin: 0;
+    padding: 0 50px;
 }
 
 
@@ -62,6 +93,7 @@ main {
 footer {
     background-color: #30343F;
     min-height: 56px;
+    position: relative;
 }
 
 
