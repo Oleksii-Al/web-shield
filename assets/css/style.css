@@ -17,7 +17,7 @@ body {
 .accordion button:focus {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
-    color:#D1DEDE;
+    color: #D1DEDE;
     text-decoration: none;
 }
 
@@ -237,13 +237,15 @@ footer {
 /*Methods*/
 
 .accordion button {
-    color:#fbbc45;
+    color: #fbbc45;
     position: relative;
 }
 
-.accordion button .abs {
+.accordion button .abs-plus,
+.accordion button .abs-minus {
     position: absolute;
     right: 0;
+    top: 25%;
 }
 
 .accordion .card {
@@ -252,7 +254,7 @@ footer {
 }
 
 .accordion li::marker {
-    color:#fbbc45;
+    color: #fbbc45;
 }
 
 .introduction {
@@ -268,4 +270,12 @@ footer {
     line-height: 30px;
     padding: 15px 25px;
     border-radius: 5px;
+}
+
+.abs-minus {
+    display: none;
+}
+
+.accordion .card-header .collapse:after .abs-plus {
+    display: none;
 }
