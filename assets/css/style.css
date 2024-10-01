@@ -22,6 +22,11 @@ body {
     text-decoration: none;
 }
 
+.accordion button:hover,
+.accordion button:focus {
+    color: #fbbc45;
+}
+
 /*Fonts*/
 .navbar-container a {
     font-weight: 500;
@@ -233,12 +238,14 @@ footer {
 /*Methods*/
 
 .accordion button {
-    color:#D1DEDE;
+    color:#fbbc45;
 }
-
-
 
 .accordion .card {
     background-color: #30343F;
     color: #D1DEDE;
+}
+
+.accordion li::marker {
+    color:#fbbc45;
 }
