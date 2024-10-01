@@ -241,11 +241,22 @@ footer {
     position: relative;
 }
 
-.accordion button .abs-plus,
-.accordion button .abs-minus {
+.accordion button i {
     position: absolute;
-    right: 0;
     top: 25%;
+}
+
+.accordion button .abs-plus {
+    right: 20px;
+}
+
+.accordion button .fa-slash {
+    right: 12px;
+    transform: rotate(20deg);
+}
+
+.abs-minus {
+    right: 0;
 }
 
 .accordion .card {
@@ -272,10 +283,4 @@ footer {
     border-radius: 5px;
 }
 
-.abs-minus {
-    display: none;
-}
 
-.accordion .card-header .collapse:after .abs-plus {
-    display: none;
-}
