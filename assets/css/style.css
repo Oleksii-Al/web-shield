@@ -87,6 +87,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 #hero h1 {
@@ -136,6 +137,11 @@ main {
     margin-bottom: 25px;
     border-radius: 5px;
     text-align: center;
+}
+
+.important-notice.large-display {
+    position: absolute;
+    bottom: 0;
 }
 
 .carousel-inner p {
