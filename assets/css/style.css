@@ -259,6 +259,7 @@ footer {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    line-height: 25px;
-    padding: 
+    line-height: 30px;
+    padding: 15px 25px;
+    border-radius: 5px;
 }
