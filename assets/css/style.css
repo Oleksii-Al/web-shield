@@ -133,10 +133,11 @@ main {
     letter-spacing: 0.5px;
     line-height: 25px;
     margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.carousel-inner p,
-.body-color {
+.carousel-inner p {
     text-align: center;
     padding: 10px 25px;
     margin: 10px 25px;
