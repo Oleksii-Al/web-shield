@@ -14,7 +14,9 @@ body {
 .cta:hover,
 .cta:focus,
 .accordion button:hover,
-.accordion button:focus {
+.accordion button:focus,
+.resources-cards a:hover,
+.resources-cards a:focus {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
     color: #D1DEDE;
@@ -283,4 +285,24 @@ footer {
     border-radius: 5px;
 }
 
+.resources-cards .card {
+    background-color: #30343F;
+    color: #D1DEDE;
+}
 
+.resources-cards a {
+    background-color: #D44D5C;
+    color: #D1DEDE;
+    border: 0;
+    border-radius: 5px;
+    padding: 1px 6px;
+    margin: 10px 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.resources-cards .res-link {
+    text-align: end;
+}
