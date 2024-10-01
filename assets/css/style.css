@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #D1DEDE;
-
 }
 
 
@@ -239,6 +238,12 @@ footer {
 
 .accordion button {
     color:#fbbc45;
+    position: relative;
+}
+
+.accordion button .abs {
+    position: absolute;
+    right: 0;
 }
 
 .accordion .card {
