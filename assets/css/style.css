@@ -124,7 +124,6 @@ main {
 
 .important-notice {
     background-color: #fbbc45;
-    border-radius: 5px;
     min-height: 100px;
     display: flex;
     justify-content: center;
