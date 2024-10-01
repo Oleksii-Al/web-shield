@@ -13,9 +13,13 @@ body {
 .navbar-container a:focus,
 .navbar-container button:hover,
 .cta:hover,
-.cta:focus {
+.cta:focus,
+.accordion button:hover,
+.accordion button:focus {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
+    color:#D1DEDE;
+    text-decoration: none;
 }
 
 /*Fonts*/
@@ -224,4 +228,17 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+/*Methods*/
+
+.accordion button {
+    color:#D1DEDE;
+}
+
+
+
+.accordion .card {
+    background-color: #30343F;
+    color: #D1DEDE;
 }
