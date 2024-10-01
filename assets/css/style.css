@@ -285,6 +285,12 @@ footer {
     border-radius: 5px;
 }
 
+.card {
+    margin-bottom: 0.2rem;
+}
+
+
+/*Resources*/
 .resources-cards .card {
     background-color: #30343F;
     color: #D1DEDE;
