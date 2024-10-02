@@ -99,6 +99,8 @@ main {
 }
 
 #hero a {
+    color: #D1DEDE;
+    text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -113,11 +115,6 @@ main {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-#hero a {
-    color: #D1DEDE;
-    text-decoration: none;
 }
 
 
