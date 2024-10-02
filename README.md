@@ -1,4 +1,5 @@
 # Web Shield
+![Responsive design](assets/images/image.png)
 
 **Overview**
 
@@ -194,3 +195,5 @@ Looking ahead, several enhancements and features could be added to the project t
 *Insightful Case Studies:* Including reports on significant cybersecurity failures and their consequences over the years would provide users with critical insights into the importance of robust security measures. By learning from past incidents, users could better appreciate the necessity of proactive protection.
 
 These improvements would not only enhance the site's content but also empower users with the knowledge they need to protect themselves online effectively.
+
+[def]: assets/images/image.png
