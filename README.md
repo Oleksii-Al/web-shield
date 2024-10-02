@@ -32,7 +32,7 @@ Acceptance Criteria:
 
 ###Design Decisions
 **Wireframes**
-[WerbShieldWireframes.pdf](assets/wireframes/WebShield.pdf))
+[WebShieldWireframes.pdf](assets/wireframes/WebShield.pdf)
 The design of the website was intentionally crafted to provide a visually comfortable experience, minimizing strain on the user’s eyes while highlighting important information with the use of color. The layout adheres to modern web design principles, ensuring clarity and ease of use.
 
 **Font and Spacing Choices**
