@@ -49,5 +49,68 @@ The "Resources" page is equipped with a card component, providing users with a b
 By blending user-friendly components like the carousel, accordion, and cards with thoughtful typography and color use, the website ensures a seamless and engaging user experience.
 
 Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.
-Guidance: Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+To ensure the website adheres to accessibility guidelines, several key elements were implemented, keeping in mind the Web Content Accessibility Guidelines (WCAG).
+
+Icon Alt Text for Screen Readers
+All icons on the website were provided with descriptive alternative text (alt text) to ensure that users who rely on screen readers can access the meaning and functionality of these icons. This step enhances the overall accessibility by providing a clear description of visual elements, ensuring that visually impaired users can navigate the site effectively.
+
+Navigation and Page Indicators
+In the navigation bar, a “current page” label was added to indicate the active page the user is on. This assists users with disabilities, particularly those using screen readers, to better understand their current location within the website. By clearly identifying the active page, the navigation experience becomes more intuitive, especially for users who may find it challenging to navigate complex website structures.
+
+These adjustments ensure that the website is more accessible to a broader range of users, meeting important accessibility standards and creating an inclusive experience for all visitors.
+
+AI Tools Usage
+ChatGPT
+ChatGPT was used to create a custom background image for the homepage, which added a modern and tech-savvy feel to the site. This visually engaging background aligned with the cybersecurity theme, enhancing the overall aesthetic and atmosphere of the website.
+
+ChatGPT played a key role in generating text-based content for the website. It was used to craft informative and readable descriptions, helping to streamline complex topics into user-friendly language. By processing the provided content, ChatGPT enhanced its clarity and engagement, ensuring that the information was not only accurate but also easy to understand for a wide audience.
+
+The tool was particularly effective in creating concise summaries, improving the overall readability and flow of the website's text. Additionally, it supported the formatting and refinement of content, making sure the website maintains a professional tone while being approachable for users unfamiliar with cybersecurity concepts.
+
+Features Implementation
+Core Features (Must-Haves)
+
+Feature 1: Structured Homepage
+The homepage was designed to provide clear navigation and essential information so users can easily understand the purpose of the website. Key components such as a well-organized layout and an intuitive navigation bar were implemented. Additionally, feedback mechanisms were added to buttons, ensuring users can track their location on the site effortlessly.
+
+Acceptance Criteria:
+- Navigation bar created with links to key sections.
+- Homepage includes essential introductory information about the website’s focus on cybersecurity.
+- Buttons provide visual feedback when clicked or hovered over, making it clear to users where they are.
+- Feature 2: Protection Methods
+- To help users easily understand how to protect themselves online, a dedicated "Methods" page was created. This page uses the accordion component to display various - cybersecurity threats and the associated protection methods, providing simple, actionable advice that users can implement without external assistance.
+
+Acceptance Criteria:
+- A separate methods.html file was created.
+- An accordion component was implemented for each threat, such as Ransomware and Phishing.
+- Protection methods are displayed for each threat in an easy-to-understand format.
+
+Advanced Features (Should-Haves)
+
+Feature 1: Useful Resource Links
+The resources page was developed to give users access to external tools and websites that can help improve their online safety. Each resource is displayed on a card, and an “Explore” button is provided for each, which opens the resource in a new tab to prevent users from losing their place on the main site.
+
+Acceptance Criteria:
+- A dedicated resources.html page was created.
+- Each resource is displayed within a card component, with a description and an “Explore” button.
+- Links are set to open in a new tab using the target="_blank" attribute, ensuring users stay on the main site.
+
+Optional Features (Could-Haves)
+While there are no optional features currently implemented, future enhancement could integrate real-time security alerts that keep users informed of the latest online threats.
+
+Testing and Validation
+Testing Results
+The website was tested across various devices and screen sizes using Chrome DevTools' responsive testing tools, ensuring compatibility and a consistent user experience across desktop, tablet, and mobile views. Additionally, the site was tested on actual mobile devices to verify that all features work seamlessly on smaller screens. All key functionalities, including navigation, buttons, and interactive elements like the accordion and carousel, operated smoothly.
+
+Issues Identified:
+
+Minor adjustments were needed for font sizes on smaller screens to enhance readability.
+Some padding was altered to ensure that buttons and clickable elements were easy to interact with on mobile devices.
+These issues were resolved by fine-tuning the CSS media queries for better responsiveness.
+
+Validation
+The HTML code was validated using the W3C Markup Validation Service, and the CSS was validated through the W3C CSS Validation Service. Both validations were successful, with no errors or significant warnings.
+
+HTML Validation: All pages passed validation, confirming that the structure and syntax are compliant with web standards.
+CSS Validation: The site's styling was also successfully validated, ensuring adherence to CSS standards.
+No major issues were found during the validation process, further confirming the site's compliance with web standards and best practices.
