@@ -166,20 +166,34 @@ main {
 
 .carousel-control-prev,
 .carousel-control-next {
-    color: #30343F;
+    color: #fbbc45;
     font-size: 50px;
+    opacity: 1;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-next:focus {
-    color: rgba(0, 0, 0, .9);
+    color: rgba(0, 0, 0, .5);
 }
 
 .carousel-indicators li {
-    color: #30343F;
-    background-color: #30343F;
+    /* color: #30343F; */
+    background-color: #fbbc45;
+    opacity: 1;
+    height: 10px;
+    width: 30px;
+}
+
+.carousel-indicators li.active {
+    background-color: rgba(0, 0, 0, .5);
+
 }
 
 .pattern {
