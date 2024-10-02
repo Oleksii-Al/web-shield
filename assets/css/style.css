@@ -16,7 +16,9 @@ body {
 .accordion button:hover,
 .accordion button:focus,
 .resources-cards a:hover,
-.resources-cards a:focus {
+.resources-cards a:focus,
+.social-media li a:hover,
+.social-media li a:focus {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 5px;
     color: #D1DEDE;
@@ -213,36 +215,32 @@ footer {
     position: relative;
 }
 
-
-
 .social-media ul {
     margin: 0;
     text-align: center;
     list-style-type: none;
-
 }
 
 .social-media ul>li {
     margin: 5px;
 }
 
-.social-media li a i {
+.social-media li a {
     color: #D1DEDE;
-    font-size: 30px;
-    padding: 5px 8px;
+    font-size: 33px;
+    padding: 0px 8px;
     border-radius: 5px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-    vertical-align: center;
     margin: 0 10px;
 }
 
-.social-media li a i:hover,
+/* .social-media li a i:hover,
 .social-media li a i:focus {
     background-color: rgba(0, 0, 0, .5);
-}
+} */
 
 #email {
     width: 150px;
