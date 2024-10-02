@@ -131,6 +131,7 @@ Once deployed, the site underwent additional testing to ensure everything was fu
 After deployment, minor bugs were identified, particularly concerning font sizes on smaller screens, which affected readability.
 Padding adjustments were also necessary to make buttons and interactive elements more user-friendly on mobile devices.
 These issues were quickly resolved by refining the CSS and padding to improve overall mobile responsiveness.
+Some elements retained focus after being clicked.
 
 **Reflection on Development Process**
 
