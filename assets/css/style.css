@@ -148,6 +148,8 @@ main {
     text-align: center;
     padding: 10px 25px;
     margin: 10px 25px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
 }
 
 .paragraph-color {
@@ -244,7 +246,7 @@ footer {
 }
 
 #email {
-    width:150px;
+    width: 150px;
 }
 
 /*Subscribe*/
@@ -294,6 +296,17 @@ footer {
     color: #fbbc45;
 }
 
+.accordion p,
+.accordion li {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.accordion button {
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
 .introduction {
     background-color: #fbbc45;
     display: flex;
@@ -335,4 +348,9 @@ footer {
 
 .resources-cards .res-link {
     text-align: end;
+}
+
+.resources-cards p {
+    font-weight: 600;
+    letter-spacing: 0.3px;
 }
